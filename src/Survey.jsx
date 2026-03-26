@@ -4,6 +4,7 @@ import './styles/itis3135.css';
 export default function Survey() {
   return (
     <>
+        <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Survey Project</h1>
       <Header />
       <main>
         <h2>Survey Project</h2>

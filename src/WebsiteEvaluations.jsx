@@ -5,6 +5,7 @@ import './styles/itis3135.css';
 export default function WebsiteEvaluations() {
   return (
     <>
+      <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Website Evaluations</h1>
       <Header />
       <main>
         <h2>Website Evaluation (CRAP Principles)</h2>

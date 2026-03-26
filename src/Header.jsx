@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 export default function Header() {
     return (
         <header>
-            <h1>Trevor Bercher's Tenacious Bear | ITIS3135</h1>
+            
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>
@@ -15,10 +15,10 @@ export default function Header() {
                     <li><Link to="/itis3135/documentation">Documentation</Link></li>
                     <li><Link to="/itis3135/survey">Survey</Link></li>
                     <li><Link to="/itis3135/cards">Cards</Link></li>
-                    <li><a href="#/itis3135/product.html">Product</a></li>
-                    <li><a href="#/itis3135/inventory.html">Inventory</a></li>
-                    <li><a href="#/itis3135/hobby">Hobby</a></li>
-                    <li><a href="#/itis3135/intro_form.html">Intro Form</a></li>
+                    <li><Link to="/itis3135/product">Product</Link></li>
+                    <li><Link to="/itis3135/inventory">Inventory</Link></li>
+                    <li><Link to="/itis3135/hobby">Hobby</Link></li>
+                    <li><Link to="/itis3135/intro_form">Intro Form</Link></li>
                 </ul>
             </nav>
         </header>

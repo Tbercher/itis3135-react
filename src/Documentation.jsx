@@ -4,6 +4,7 @@ import './styles/itis3135.css';
 export default function Documentation() {
   return (
     <>
+      <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Camping Documentation</h1>
       <Header />
       <div className="page-wrapper">
         <nav id="navbar">

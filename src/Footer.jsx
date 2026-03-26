@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 export default function Footer() {
 
     return(
@@ -21,9 +22,10 @@ export default function Footer() {
                     </li>
                 </ul>
                 <ul>
-                    <li>
-                        <a href="https://bercherenterprises.com">Page built by Bercher Enterprises</a>
-                    </li>
+                    
+                    
+                        <li><Link to="/itis3135/BercherEnterprises">Bercher Enterprises</Link></li>
+                    
                     <li>
                          <a href="https://www.freecodecamp.org/certification/tbercher/responsive-web-design-v9">Designed by Trevor Bercher Certified in Responsive Web Design</a>
                     </li>

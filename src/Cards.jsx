@@ -4,6 +4,7 @@ import './styles/itis3135.css';
 export default function Cards() {
   return (
     <>
+      <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Cards</h1>
       <Header />
       <main>
         <h2>Tenacious Bear Camping Supplies Giveaway Cards</h2>

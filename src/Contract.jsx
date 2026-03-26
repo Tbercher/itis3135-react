@@ -5,6 +5,7 @@ import './styles/itis3135.css';
 export default function Contract() {
   return (
     <>
+      <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Contract Page</h1>
       <Header />
       <main>
         <h2>Contract</h2>
