@@ -1,0 +1,34 @@
+export default function Footer() {
+
+    return(
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                      <a href="https://github.com/Tbercher">GitHub</a>
+                    </li>
+                    <li>
+                       <a href="https://tbercher.github.io/">GitHub.io</a>
+                    </li>
+                    <li>
+                         <a href="https://webpages.charlotte.edu/tbercher/">CLT Web</a>
+                    </li>
+                    <li>
+                        <a href="https://www.freecodecamp.org/tbercher">freeCodeCamp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/trevorbercher/">LinkedIn</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://bercherenterprises.com">Page built by Bercher Enterprises</a>
+                    </li>
+                    <li>
+                         <a href="https://www.freecodecamp.org/certification/tbercher/responsive-web-design-v9">Designed by Trevor Bercher Certified in Responsive Web Design</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    );
+}
