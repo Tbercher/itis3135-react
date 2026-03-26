@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useHomeTitle, useItisTitle } from './usetitle';
 export default function PhysicalMediaCollection() {
   // 1. Manage the active section using React State instead of DOM manipulation
   const [activeSection, setActiveSection] = useState('what');

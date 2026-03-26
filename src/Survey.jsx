@@ -1,7 +1,8 @@
 import Header from './Header';
 import Footer from './Footer';
-
+import { useHomeTitle, useItisTitle } from './usetitle';
 export default function Survey() {
+  useItisTitle("Survey");
   return (
     <>
         <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Survey Project</h1>

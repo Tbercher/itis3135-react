@@ -1,8 +1,9 @@
 import Footer from './Footer';
 import Header from './Header';
-
+import { useHomeTitle, useItisTitle } from './usetitle';
 
 export default function WebsiteEvaluations() {
+  useItisTitle("Website Evaluations");
   return (
     <>
       <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Website Evaluations</h1>

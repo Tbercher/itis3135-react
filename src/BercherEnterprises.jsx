@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { useHomeTitle, useItisTitle } from './usetitle';
 export default function BercherEnterprises() {
   return (
     <>

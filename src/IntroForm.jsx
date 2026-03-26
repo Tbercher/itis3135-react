@@ -1,7 +1,10 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import { useHomeTitle, useItisTitle } from './usetitle';
 export default function IntroForm() {
+  useItisTitle("Introduction Form");
+
   return (
     <>
       <header>

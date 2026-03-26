@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-
+import { useHomeTitle, useItisTitle } from './usetitle';
 
 
 export default function Inventory() {
+  useItisTitle("Inventory");
   // Extracting table data into an array makes it much easier to manage in React
   const inventoryItems = [
     { id: 1, name: '4-Person Dome Tent', brand: 'Coleman', category: 'Shelter', status: 'Available', rowClass: 'available', rateClass: 'three' },

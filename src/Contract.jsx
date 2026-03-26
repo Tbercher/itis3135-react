@@ -1,8 +1,9 @@
 import Footer from './Footer';
 import Header from './Header';
-
+import { useHomeTitle, useItisTitle } from './usetitle';
 
 export default function Contract() {
+  useItisTitle("Contract");
   return (
     <>
       <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Contract Page</h1>
