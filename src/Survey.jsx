@@ -1,5 +1,5 @@
 import Header from './Header';
-import './styles/itis3135.css';
+import Footer from './Footer';
 
 export default function Survey() {
   return (
@@ -61,6 +61,7 @@ export default function Survey() {
           <button id="submit" type="submit">Submit</button>
         </form>
       </main>
+      <Footer />
     </>
   );
 }

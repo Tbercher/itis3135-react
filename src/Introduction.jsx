@@ -1,5 +1,7 @@
 import { Link } from 'react-router';
-import './index.css';
+import React from 'react';
+
+import headshot from './assets/myprofessionalheadshot.png';
 
 export default function Introduction() {
   return (

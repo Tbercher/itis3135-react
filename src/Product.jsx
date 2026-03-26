@@ -12,7 +12,7 @@ export default function Product() {
           <div className="logo">
             <img
               id="header-img"
-              src="images/BearLogo.png"
+              src="src\assets\BearLogo.png"
               alt="Tenacious Bear Camping Supply logo"
               style={{ height: '50px', width: 'auto' }}
             />
@@ -39,7 +39,7 @@ export default function Product() {
 
           <img
             id="main-img"
-            src="images/BearLogo.png"
+            src="src\assets\BearLogo.png"
             alt="Tenacious Bear Camping Supply logo"
             className="center-img"
           />

@@ -1,5 +1,5 @@
 import Header from './Header';
-import './styles/itis3135.css';
+import Footer from './Footer';
 
 export default function Cards() {
   return (
@@ -46,6 +46,7 @@ export default function Cards() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

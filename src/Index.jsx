@@ -1,6 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import './styles/itis3135.css';
+
 
 export default function Index() {
   return (

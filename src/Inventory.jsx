@@ -25,7 +25,7 @@ export default function Inventory() {
         <h1>Trevor Bercher's Tenacious Bear | ITIS3135 | Inventory Project</h1>
       </header>
       
-      {/* Replace your old data-include divs with actual React components once created */}
+      
       <Header />
 
       <main>

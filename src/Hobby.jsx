@@ -68,7 +68,7 @@ export default function PhysicalMediaCollection() {
           </ul>
           <figure>
             <img
-              src="images/what-collection.png"
+              src="src\assets\what-collection.png"
               alt="A well-organized shelf displaying Blu-rays and other physical media."
               width="600"
               height="400"
@@ -98,7 +98,7 @@ export default function PhysicalMediaCollection() {
           </p>
           <figure>
             <img
-              src="images/who-collector.png"
+              src="src\assets\who-collector.png"
               alt="A man sitting near a bookshelf with a dog"
               width="600"
               height="400"
@@ -148,7 +148,7 @@ export default function PhysicalMediaCollection() {
           </table>
           <figure>
             <img
-              src="images/when-calendar.png"
+              src="src\assets\when-calendar.png"
               alt="A calendar highlighting the weekend"
               width="600"
               height="400"
@@ -216,7 +216,7 @@ export default function PhysicalMediaCollection() {
           </form>
           <figure>
             <img
-              src="images/where-store.png"
+              src="src\assets\where-store.png"
               alt="Interior of a vintage media store"
               width="600"
               height="400"
@@ -251,7 +251,7 @@ export default function PhysicalMediaCollection() {
           </ol>
           <figure>
             <img
-              src="images/how-shelves.png"
+              src="src\assets\how-shelves.png"
               alt="Perfectly organized media shelves"
               width="600"
               height="400"
@@ -288,7 +288,7 @@ export default function PhysicalMediaCollection() {
           </p>
           <figure>
             <img
-              src="images/why-disc.png"
+              src="src\assets\why-disc.png"
               alt="A physical disc held against a digital cloud"
               width="600"
               height="400"
