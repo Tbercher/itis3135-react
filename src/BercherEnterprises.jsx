@@ -1,4 +1,4 @@
-import styles from "/src/styles/bercherEnterprises.module.css";
+import styles from "/src/styles/bercher_enterprises.module.css";
 
 export default function Home() {
   return (
