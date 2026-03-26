@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #f4f4f4;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.main {
+  margin: 0;
+  max-width: 900px;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman";
+}
+
+.h2 {
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman";
+}
+
+.h3 {
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman";
+}
+
+.p {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.playingCards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.label {
+  display: block;
+  font-family: "Lato", "Times New Roman";
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #363636;
+}
+
+.inputText,
+.inputEmail,
+.inputNumber,
+.select,
+.textarea {
+  display: block;
+  width: auto;
+  min-width: 100%;
+  padding: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.inputRadio,
+.inputCheckbox {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.formLabel {
+  margin-bottom: 10px;
+}
+
+.formP {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #363636;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.submit:hover {
+  background-color: #000000;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.headerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman";
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.headerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.headerNav a:hover {
+  background-color: #000000;
+}
+
+.headerNav li {
+  float: left;
+}
+
+.figcaption {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.ul {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.blockquote {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.legend {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.dropdown {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.footerNav {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.footerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman";
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.footerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.footerNav a:hover {
+  background-color: #000000;
+}
+
+.footerNav li {
+  float: left;
+}

@@ -4,8 +4,9 @@ import styles from "/src/styles/documentation.module.css";
 import { useItisTitle } from "./usetitle";
 
 export default function CampingDocumentation() {
+  useItisTitle("Camping Documentation");
   return (
-    useItisTitle("Camping Documentation"),
+    
     <div className={styles.body}>
       
       <link

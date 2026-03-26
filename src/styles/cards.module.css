@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #f4f4f4;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 900px;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman";
+}
+
+.h2 {
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman";
+  text-align: center;
+  padding-top: 25px;
+  font-size: 1.5rem;
+}
+
+.h3 {
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman";
+}
+
+.p {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.playingCards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+/* --- Start of playing card styling --- */
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  max-width: 250px;
+  height: 350px;
+  font-size: 30px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 15px;
+}
+
+.left {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left img,
+.right img {
+  width: 85px;
+  height: auto;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle img {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+}
+
+.right {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right div.flipped {
+  margin-top: 5px;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+.red {
+  color: red;
+}
+/* --- end of playing card styling --- */
+
+.headerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman";
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.headerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.headerNav a:hover {
+  background-color: #000000;
+}
+
+.headerNav li {
+  float: left;
+}
+
+.figcaption {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.ul {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.blockquote {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.footerNav {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.footerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman";
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.footerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.footerNav a:hover {
+  background-color: #000000;
+}
+
+.footerNav li {
+  float: left;
+}

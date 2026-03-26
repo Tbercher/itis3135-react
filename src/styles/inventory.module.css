@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #f4f4f4;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.main {
+  margin: 0;
+  max-width: 900px;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.h2 {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.h3 {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.p {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+/* Playing card styles */
+.playingCards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+  max-width: 250px;
+  height: 350px;
+  font-size: 30px;
+  background-color: #ffffff;
+  border: 1px solid #363636;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #cccccc;
+  border-radius: 10px;
+}
+
+.left {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.middle {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+}
+
+.right {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+.red {
+  color: #363636;
+}
+
+/* Survey form styles */
+.fieldset {
+  border: 1px solid #363636;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Lato", "Times New Roman";
+  color: #363636;
+}
+
+.legend {
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.form {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.label {
+  display: block;
+  font-family: "Lato", "Times New Roman";
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #363636;
+}
+
+.inputText,
+.inputEmail,
+.inputNumber,
+.select,
+.textarea {
+  display: block;
+  width: auto;
+  min-width: 100%;
+  padding: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-family: "Lato", "Times New Roman";
+  font-size: 1rem;
+  color: #363636;
+}
+
+.inputRadio,
+.inputCheckbox {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.formLabel {
+  margin-bottom: 10px;
+}
+
+.formP {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #363636;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  font-family: "Lato", "Times New Roman";
+}
+
+.submit:hover {
+  background-color: #000000;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Header / footer nav */
+.headerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman";
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.headerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.headerNav a:hover {
+  background-color: #000000;
+}
+
+.headerNav li {
+  float: left;
+}
+
+.figcaption {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.ul {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.blockquote {
+  color: #363636;
+  font-family: "Lato", "Times New Roman";
+}
+
+.footerNav {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.footerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman";
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.footerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.footerNav a:hover {
+  background-color: #000000;
+}
+
+.footerNav li {
+  float: left;
+}
+
+/* Inventory table */
+.span {
+  display: inline-block;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: "Lato", "Times New Roman";
+  color: #363636;
+}
+
+.th,
+.td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #cccccc;
+}
+
+.th {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+/* Row background colors */
+.available {
+  background-color: #ffffff;
+}
+
+.inUse {
+  background-color: #e6e6e6;
+}
+
+.wishlist {
+  background-color: #cccccc;
+}
+
+/* Status pill */
+.status {
+  font-weight: bold;
+  border-radius: 1em;
+  border: 2px solid #000000;
+  background-color: #363636;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.1;
+  box-sizing: border-box;
+  height: 30px;
+  width: 120px;
+  padding: 7px;
+  display: inline-block;
+}
+
+/* Rating dots container */
+.rate {
+  box-sizing: border-box;
+  height: 30px;
+  width: 120px;
+  padding: 7px;
+  display: inline-block;
+}
+
+/* Individual rating dot */
+.dot {
+  box-sizing: border-box;
+  border: 2px solid #363636;
+  border-radius: 50%;
+  margin: 0 5px;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.dotFilled {
+  background-color: #363636;
+}

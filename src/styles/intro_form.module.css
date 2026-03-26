@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #f4f4f4;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 90%;
+  flex-grow: 1;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman", serif;
+}
+
+.h2,
+.h3 {
+  color: #363636;
+  font-family: "Libre Baskerville", "Times New Roman", serif;
+  margin-bottom: 15px;
+}
+
+.p {
+  color: #363636;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  line-height: 1.6;
+}
+
+.headerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.headerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.headerNav a:hover {
+  background-color: #000000;
+}
+
+.headerNav li {
+  float: left;
+}
+
+.figcaption {
+  color: #363636;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.ul {
+  color: #363636;
+  font-family: "Lato", "Times New Roman", sans-serif;
+}
+
+.blockquote {
+  color: #363636;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  font-style: italic;
+  border-left: 4px solid #363636;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+.footerNav {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.footerNav ul {
+  list-style: none;
+  background-color: #363636;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.footerNav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.footerNav a:hover {
+  background-color: #000000;
+}
+
+.footerNav li {
+  float: left;
+}
+
+/* =========================================
+   Form Specific Styles
+   ========================================= */
+
+.form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-family: "Lato", "Times New Roman", sans-serif;
+}
+
+.fieldset {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #fafafa;
+}
+
+.legend {
+  font-family: "Libre Baskerville", "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #363636;
+  padding: 0 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #363636;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.inputText,
+.inputUrl,
+.inputDate,
+.textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+.inputText:focus,
+.inputUrl:focus,
+.inputDate:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #363636;
+  box-shadow: 0 0 5px rgba(54, 54, 54, 0.3);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Dynamic row entries */
+.courseEntry,
+.linkEntry {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.courseEntry input,
+.linkEntry input {
+  flex: 1;
+  margin-top: 0;
+}
+
+/* Buttons */
+.button {
+  background-color: #363636;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+.deleteCourseBtn,
+.deleteLinkBtn {
+  background-color: #d9534f;
+  margin-top: 0;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Lato", "Times New Roman", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.deleteCourseBtn:hover,
+.deleteLinkBtn:hover {
+  background-color: #c9302c;
+}
+
+.formControls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #eeeeee;
+}
+
+/* Links inside main */
+.main a {
+  color: #363636;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.main a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.outputContainer ul li a {
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  padding: 2px 0;
+}
