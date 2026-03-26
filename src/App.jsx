@@ -5,6 +5,9 @@ import Index from './Index'
 import Contract from './Contract'
 import WebsiteEvaluations from './WebsiteEvaluations'
 import MyStuff from './MyStuff'
+import Documentation from './Documentation'
+import Survey from './Survey'
+import Cards from './Cards'
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Route path="/itis3135/contract" element={<Contract />} />
       <Route path="/itis3135/website-evaluations" element={<WebsiteEvaluations />} />
       <Route path="/itis3135/mystuff" element={<MyStuff />} />
+      <Route path="/itis3135/documentation" element={<Documentation />} />
+      <Route path="/itis3135/survey" element={<Survey />} />
+      <Route path="/itis3135/cards" element={<Cards />} />
     </Routes>
   )
 }

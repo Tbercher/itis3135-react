@@ -12,9 +12,9 @@ export default function Header() {
                 </ul>
                 <ul>
                     <li><Link to="/itis3135/mystuff">Crappy Website</Link></li>
-                    <li><a href="#/itis3135/documentation.html">Documentation</a></li>
-                    <li><a href="#/itis3135/survey.html">Survey</a></li>
-                    <li><a href="#/itis3135/cards.html">Cards</a></li>
+                    <li><Link to="/itis3135/documentation">Documentation</Link></li>
+                    <li><Link to="/itis3135/survey">Survey</Link></li>
+                    <li><Link to="/itis3135/cards">Cards</Link></li>
                     <li><a href="#/itis3135/product.html">Product</a></li>
                     <li><a href="#/itis3135/inventory.html">Inventory</a></li>
                     <li><a href="#/itis3135/hobby">Hobby</a></li>
