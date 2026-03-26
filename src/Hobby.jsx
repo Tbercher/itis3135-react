@@ -1,5 +1,5 @@
 import { use, useState } from "react";
-import styles from "/src/styles/index.module.css";
+import styles from "/src/styles/hobby.module.css";
 import { useItisTitle } from "./usetitle";
 
 const navItems = [

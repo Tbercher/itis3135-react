@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import styles from '/src/styles/Home.module.css';
+import styles from '/src/styles/home.module.css';
 import { useHomeTitle, useItisTitle } from './usetitle';
 
 export default function Home() {
