@@ -8,7 +8,7 @@ export default function Header() {
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/itis3135/contract">Contract Page</Link></li>
-                    <li><a href="#/itis3135/website_evaluations.html">Website Evaluation</a></li>
+                    <li><Link to="/itis3135/website-evaluations">Website Evaluation</Link></li>
                 </ul>
                 <ul>
                     <li><a href="#/itis3135/stuff/mYsTuFf__.htm">Crappy Website</a></li>
