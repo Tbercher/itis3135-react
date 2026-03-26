@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:global(html),
+:global(body) {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #162b48;
+  color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #5c88b0;
+}
+
+.headerImg {
+  margin-right: 20px;
+  height: 60px;
+}
+
+.h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2 {
+  color: #162b48;
+  border-bottom: 2px solid #a7c5db;
+  padding-bottom: 5px;
+}
+
+.h3 {
+  margin-top: 0;
+  color: #162b48;
+}
+
+.main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  flex-grow: 1;
+  width: 100%;
+}
+
+/* Unordered list with custom bullet */
+.ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ul li {
+  padding: 10px 0;
+  padding-left: 35px;
+  position: relative;
+}
+
+.ul li::before {
+  content: "✦";
+  color: #5c88b0;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.ul li strong {
+  color: #162b48;
+}
+
+/* Contact section */
+.contactSection {
+  background-color: #f4f7f9;
+  border-left: 10px solid #162b48;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.p strong {
+  color: #162b48;
+}
+
+.p {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #eeeeee;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #666;
+}

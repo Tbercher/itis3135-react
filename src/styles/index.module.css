@@ -1,0 +1,291 @@
+/* ── Global resets (unscoped — applied to html/body) ── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent browser default white background from showing through */
+:global(html),
+:global(body) {
+  background-color: #1c2b23;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Palette ── */
+:root {
+  --bg-color:     #1c2b23;
+  --nav-bg:       #121e17;
+  --text-color:   #e0ebd8;
+  --accent-color: #82b082;
+  --link-color:   #d6c89a;
+}
+
+/* ── Body ── */
+.body {
+  font-family: "Space Mono", monospace;
+  background-color: #1c2b23;
+  color: #e0ebd8;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Typography ── */
+.h1 {
+  font-family: "VT323", monospace;
+  letter-spacing: 1px;
+  color: #82b082;
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.h2 {
+  font-family: "VT323", monospace;
+  letter-spacing: 1px;
+  color: #82b082;
+  border-bottom: 2px dashed #e0ebd8;
+  padding-bottom: 5px;
+  font-size: 2.2em;
+}
+
+.legend {
+  font-family: "VT323", monospace;
+  letter-spacing: 1px;
+  color: #e0ebd8;
+}
+
+/* ── Header ── */
+.header {
+  background-color: #121e17;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #82b082;
+}
+
+/* ── Nav ── */
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.navLink {
+  font-family: "VT323", monospace;
+  color: #d6c89a;
+  text-decoration: none;
+  font-size: 1.8em;
+  padding: 5px 10px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: #e0ebd8;
+  text-shadow: 0 0 8px #82b082;
+}
+
+.navDivider {
+  color: #82b082;
+  margin: 0 5px;
+  font-size: 1.4em;
+  line-height: 1;
+}
+
+/* ── Main ── */
+.main {
+  max-width: 900px;
+  width: calc(100% - 40px);
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #121e17;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  font-family: "Space Mono", monospace;
+  color: #e0ebd8;
+  flex-grow: 1;
+}
+
+.main p,
+.main li,
+.main ul,
+.main ol,
+.main blockquote,
+.main td,
+.main th {
+  font-family: "Space Mono", monospace;
+  color: #e0ebd8;
+}
+
+.main a {
+  color: #d6c89a;
+  text-decoration: underline;
+  text-decoration-color: #82b082;
+  text-decoration-thickness: 2px;
+  transition: color 0.3s ease;
+}
+
+.main a:hover,
+.main a:focus {
+  color: #82b082;
+}
+
+/* ── Section animation ── */
+.sectionPanel {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Prose spacing ── */
+.main p,
+.main ul,
+.main ol,
+.main blockquote {
+  margin-bottom: 15px;
+  font-size: 0.95em;
+}
+
+/* ── Figure ── */
+.figure {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #1c2b23;
+  border: 1px solid #82b082;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.figcaption {
+  margin-top: 10px;
+  font-size: 0.85em;
+  color: #d6c89a;
+  font-family: "Space Mono", monospace;
+}
+
+.figcaption i {
+  display: block;
+  margin-top: 5px;
+  color: #9cb5a1;
+}
+
+/* ── Table ── */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  border: 1px solid #82b082;
+  padding: 10px;
+  font-family: "Space Mono", monospace;
+  color: #e0ebd8;
+}
+
+/* ── Where form ── */
+.voteForm {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.voteFieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.voteLegend {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: "VT323", monospace;
+  color: #e0ebd8;
+  letter-spacing: 1px;
+}
+
+.voteSubmit {
+  margin-top: 10px;
+  font-family: "Space Mono", monospace;
+  background-color: #82b082;
+  color: #121e17;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.voteSubmit:hover {
+  background-color: #a0c8a0;
+}
+
+/* ── Blockquote ── */
+.blockquote {
+  border-left: 4px solid #82b082;
+  padding-left: 15px;
+  font-style: italic;
+  color: #e0ebd8;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 15px;
+  font-size: 0.95em;
+}
+
+/* ── Code ── */
+.code {
+  background-color: #000;
+  color: #0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: "Space Mono", monospace;
+}
+
+/* ── Footer ── */
+.footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #121e17;
+  border-top: 2px solid #82b082;
+  margin-top: 60px;
+  width: 100%;
+  font-family: "Space Mono", monospace;
+  color: #e0ebd8;
+}
+
+.footer p {
+  color: #e0ebd8;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+}
+
+.footer a {
+  font-family: "VT323", monospace;
+  color: #d6c89a;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.footer a:hover {
+  color: #82b082;
+  text-shadow: 0 0 5px #82b082;
+}

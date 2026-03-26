@@ -1,28 +1,31 @@
-import React from 'react';
+import styles from "/src/styles/BercherEnterprises.module.css";
 
-import { useHomeTitle, useItisTitle } from './usetitle';
-export default function BercherEnterprises() {
+export default function Home() {
   return (
-    <>
-      <header>
-        
+    <div className={styles.body}>
+
+      {/* ── Header ── */}
+      <header className={styles.header}>
         <img
-          src="src\assets\bercherenterpriselogo.jpg"
+          src="/src/assets/bercherenterpriselogo.jpg"
           alt="Bercher Enterprises Logo"
+          className={styles.headerImg}
         />
-        <h1>Bercher Enterprise's Designs</h1>
+        <h1 className={styles.h1}>Bercher Enterprise's Designs</h1>
       </header>
 
-      <main>
-        <h2>Home</h2>
-        <p>
+      {/* ── Main ── */}
+      <main className={styles.main}>
+        <h2 className={styles.h2}>Home</h2>
+
+        <p className={styles.p}>
           At Bercher Enterprises, our design philosophy is rooted in the belief
           that clarity is the ultimate form of sophistication. We don't just build
           websites, we engineer digital experiences that balance aesthetic
           elegance with rigorous technical standards.
         </p>
 
-        <ul>
+        <ul className={styles.ul}>
           <li>
             <strong>CRAP Principle Mastery:</strong> Every design is rooted in
             Contrast, Repetition, Alignment, and Proximity to ensure maximum
@@ -43,13 +46,13 @@ export default function BercherEnterprises() {
             and search engines.
           </li>
           <li>
-            <strong>Custom Brand Integration:</strong> We don’t use generic
+            <strong>Custom Brand Integration:</strong> We don't use generic
             templates; every color palette is curated using modern tools like
             Coolors to match your unique brand identity.
           </li>
         </ul>
 
-        <p>
+        <p className={styles.p}>
           <strong>What I can do for you:</strong> I provide comprehensive web
           consulting services that transform abstract business goals into
           polished, high-performance digital identities. Whether you need a sleek
@@ -60,17 +63,18 @@ export default function BercherEnterprises() {
           technically superior.
         </p>
 
-        <section id="contact">
-          <h3>Contact Us</h3>
-          <p>Phone: 704-555-4287</p>
-          <p>Email: bercherenterprises@gmail.com</p>
-          <p>Address: 123 Web Way, Charlotte, NC</p>
+        <section id="contact" className={styles.contactSection}>
+          <h3 className={styles.h3}>Contact Us</h3>
+          <p className={styles.p}>Phone: 704-555-4287</p>
+          <p className={styles.p}>Email: bercherenterprises@gmail.com</p>
+          <p className={styles.p}>Address: 123 Web Way, Charlotte, NC</p>
         </section>
       </main>
 
-      <footer>
+      {/* ── Footer ── */}
+      <footer className={styles.footer}>
         <p>Page created by Bercher Enterprises</p>
       </footer>
-    </>
+    </div>
   );
 }
