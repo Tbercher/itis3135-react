@@ -1,6 +1,6 @@
 import { use } from "react";
 import styles from "/src/styles/product.module.css";
-import HeaderComponent from "./Header";
+import Header from "./Header";
 import Footer from "./Footer";
 import { useItisTitle } from "./usetitle";
 
@@ -45,7 +45,7 @@ export default function Product() {
       </header>
 
       
-      <HeaderComponent /> 
+      <Header /> 
 
       {/* Brand / nav header — full width, outside main */}
       <header id="header" className={styles.siteHeader}>
