@@ -1,11 +1,12 @@
 import { Link } from 'react-router';
-import React from 'react';
-
-import headshot from './assets/myprofessionalheadshot.png';
+// Import your CSS Module here. 
+// Note: Change 'Introduction.module.css' if you named your file something else!
+import styles from '/src/styles/Home.module.css';
 
 export default function Introduction() {
   return (
-    <>
+    /* REPLACED the empty <> fragment with the pageContainer wrapper */
+    <div className={styles.pageContainer}>
       <header>
         <h1>Trevor Bercher's Introduction Page</h1>
         <nav>
@@ -20,7 +21,7 @@ export default function Introduction() {
 
         <figure>
           <img
-            src="src\assets\myprofessionalheadshot.png"
+            src="src/assets/myprofessionalheadshot.png"
             alt="A professional photo of Trevor Bercher."
             height="500"
             width="500"
@@ -119,6 +120,6 @@ export default function Introduction() {
         </ul>
       </nav>
     </footer>
-  </>
+  </div>
   );
 }

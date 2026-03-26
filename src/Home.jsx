@@ -1,9 +1,9 @@
 import { Link } from 'react-router';
-
+import styles from '/src/styles/Home.module.css';
 
 export default function Home() {
   return (
-    <>
+    <div className={styles.pageContainer}>
       <header>
         <h1>Trevor Bercher's Home Page</h1>
         <nav>
@@ -41,6 +41,6 @@ export default function Home() {
           </ul>
         </nav>
       </footer>
-    </>
+    </div>
   );
 }
