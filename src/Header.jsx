@@ -1,10 +1,24 @@
+import { Link } from 'react-router';
+
 export default function Header() {
     return (
         <header>
-            <h1>Trevor Bercher's Introduction Page</h1>
+            <h1>Trevor Bercher's Tenacious Bear | ITIS3135</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home Page</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/itis3135/contract">Contract Page</Link></li>
+                    <li><a href="#/itis3135/website_evaluations.html">Website Evaluation</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#/itis3135/stuff/mYsTuFf__.htm">Crappy Website</a></li>
+                    <li><a href="#/itis3135/documentation.html">Documentation</a></li>
+                    <li><a href="#/itis3135/survey.html">Survey</a></li>
+                    <li><a href="#/itis3135/cards.html">Cards</a></li>
+                    <li><a href="#/itis3135/product.html">Product</a></li>
+                    <li><a href="#/itis3135/inventory.html">Inventory</a></li>
+                    <li><a href="#/itis3135/hobby">Hobby</a></li>
+                    <li><a href="#/itis3135/intro_form.html">Intro Form</a></li>
                 </ul>
             </nav>
         </header>

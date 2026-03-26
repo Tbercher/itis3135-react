@@ -31,7 +31,7 @@ export default function Home() {
             <li><a href="https://github.com/Tbercher">GitHub</a></li>
             <li><a href="https://tbercher.github.io/">GitHub.io</a></li>
             <li><a href="https://webpages.charlotte.edu/tbercher/">CLT Web</a></li>
-            <li><a href="itis3135">ITIS3135</a></li>
+            <li><Link to="/itis3135">ITIS3135</Link></li>
             <li><a href="https://www.linkedin.com/in/trevorbercher/">LinkedIn</a></li>
           </ul>
           <ul>
