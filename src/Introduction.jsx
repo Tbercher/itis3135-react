@@ -2,13 +2,15 @@ import { Link } from 'react-router';
 // Import your CSS Module here. 
 // Note: Change 'Introduction.module.css' if you named your file something else!
 import styles from '/src/styles/Home.module.css';
+import { useHomeTitle} from './usetitle';
 
 export default function Introduction() {
+  useHomeTitle("Introduction");
   return (
     /* REPLACED the empty <> fragment with the pageContainer wrapper */
     <div className={styles.pageContainer}>
       <header>
-        <h1>Trevor Bercher's Introduction Page</h1>
+        <h1>Trevor Bercher's Website</h1>
         <nav>
           <ul>
             <li><Link to="/">Home Page</Link></li>
@@ -64,7 +66,6 @@ export default function Introduction() {
           school laptop and go to the Atkins library to complete my tasks.
         </li>
       </ul>
-
       <h3>Current Course Load</h3>
       <ol>
         <li>

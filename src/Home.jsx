@@ -1,11 +1,13 @@
 import { Link } from 'react-router';
 import styles from '/src/styles/Home.module.css';
+import { useHomeTitle, useItisTitle } from './usetitle';
 
 export default function Home() {
+  useHomeTitle("Home");
   return (
     <div className={styles.pageContainer}>
       <header>
-        <h1>Trevor Bercher's Home Page</h1>
+        <h1>Trevor Bercher's Website</h1>
         <nav>
           <ul>
             <li><Link to="/introduction">Introduction</Link></li>

@@ -9,7 +9,7 @@ export default function Index() {
       <Header />
       
       <main>
-        <h2>M2C - Create your course site</h2>
+        <h2>Home</h2>
       </main>
       <Footer />
     </>

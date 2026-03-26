@@ -33,21 +33,33 @@
 }
 
 /* 3. Main Content Layout */
+.pageContainer image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
 .pageContainer main {
   margin: 0;
   max-width: 900px;
   margin-left: 20%;
   margin-right: 20%;
+  padding-bottom: 15px;
   flex-grow: 1; /* Pushes the footer to the bottom */
-  padding-bottom: 2rem;
   padding-top: 1rem;
+}
+.pageContainer figcaption {
+  font-family: "Inter", "Times New Roman", serif;
+  
+ 
+  margin-top: 8px;
 }
 
 /* 4. Typography & Colors */
 .pageContainer h1 {
   text-align: center;
   margin-top: 0; /* Removes gap at the very top */
-  padding-top: 20px;
   margin-bottom: 10px;
   color: #2d4654;
   font-family: "Montserrat", "Times New Roman", serif;
@@ -57,7 +69,6 @@
 .pageContainer h3 {
   color: #2d4654;
   font-family: "Montserrat", "Times New Roman", serif;
-  margin-top: 1rem;
 }
 
 .pageContainer p, 
@@ -66,7 +77,7 @@
 .pageContainer blockquote {
   color: #2d4654;
   font-family: "Inter", "Times New Roman", sans-serif;
-  line-height: 1.5;
+  
 }
 
 /* 5. Navigation Styling (Header & Footer) */
@@ -109,9 +120,6 @@
 
 .pageContainer blockquote {
   font-style: italic;
-  border-left: 3px solid #2d4654;
-  padding-left: 1rem;
-  margin: 1rem 0;
 }
 
 .pageContainer footer {
