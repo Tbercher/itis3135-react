@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import styles from "/src/styles/intro_form.module.css";
+import styles from "./src/styles/intro_form.module.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import { useItisTitle } from "./usetitle";

@@ -1,5 +1,5 @@
 import { use } from "react";
-import styles from "/src/styles/cards.module.css";
+import styles from "./src/styles/cards.module.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import { useItisTitle } from "./usetitle";  

@@ -1,5 +1,5 @@
 import { use } from "react";
-import styles from "/src/styles/inventory.module.css";
+import styles from "./src/styles/inventory.module.css";
 import { useItisTitle } from "./usetitle";
 import Header from "./Header";
 import Footer from "./Footer";
