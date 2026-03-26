@@ -11,7 +11,7 @@ export default function Header() {
                     <li><Link to="/itis3135/website-evaluations">Website Evaluation</Link></li>
                 </ul>
                 <ul>
-                    <li><a href="#/itis3135/stuff/mYsTuFf__.htm">Crappy Website</a></li>
+                    <li><Link to="/itis3135/mystuff">Crappy Website</Link></li>
                     <li><a href="#/itis3135/documentation.html">Documentation</a></li>
                     <li><a href="#/itis3135/survey.html">Survey</a></li>
                     <li><a href="#/itis3135/cards.html">Cards</a></li>
