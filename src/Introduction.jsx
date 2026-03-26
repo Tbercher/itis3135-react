@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 // Import your CSS Module here. 
 // Note: Change 'Introduction.module.css' if you named your file something else!
-import styles from "./src/styles/home.module.css";
+import styles from "./styles/home.module.css";
 import { useHomeTitle} from './usetitle';
 
 export default function Introduction() {

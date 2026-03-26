@@ -1,4 +1,4 @@
-import styles from "./src/styles/survey.module.css";
+import styles from "./styles/survey.module.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import { use } from "react";

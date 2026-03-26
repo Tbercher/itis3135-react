@@ -1,6 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import styles from "./src/styles/documentation.module.css";
+import styles from "./styles/documentation.module.css";
 import { useItisTitle } from "./usetitle";
 
 export default function CampingDocumentation() {
