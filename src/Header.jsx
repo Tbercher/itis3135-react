@@ -15,6 +15,7 @@ export default function Header() {
                     <li><Link to="/itis3135/product">Product</Link></li>
                     <li><Link to="/itis3135/inventory">Inventory</Link></li>
                     <li><Link to="/itis3135/intro_form">Intro Form</Link></li>
+                    <li><Link to="/itis3135/cat-api">Cat Api</Link></li>
                 </ul>
                 <ul>
                     <li><Link to="/itis3135/mystuff">Crappy Website</Link></li>
