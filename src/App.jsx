@@ -34,7 +34,7 @@ function App() {
       <Route path="/itis3135/hobby" element={<Hobby />} />
       <Route path="/itis3135/intro_form" element={<IntroForm />} />
       <Route path="/itis3135/BercherEnterprises" element={<BercherEnterprises />} />
-      <Route path="/itis3135/CatApi" element={<CatSlideshow />} />
+      <Route path="/itis3135/CatApi" element={<CatApi />} />
     </Routes>
   )
 }
