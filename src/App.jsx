@@ -13,6 +13,8 @@ import Inventory from './Inventory'
 import Hobby from './Hobby'
 import IntroForm from './IntroForm.jsx'
 import BercherEnterprises from './BercherEnterprises.jsx';
+import CatSlideshow from './CatSlideshow';
+
 import './styles/itis3135.css';
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
       <Route path="/itis3135/hobby" element={<Hobby />} />
       <Route path="/itis3135/intro_form" element={<IntroForm />} />
       <Route path="/itis3135/BercherEnterprises" element={<BercherEnterprises />} />
+      <Route path="/itis3135/CatApi" element={<CatSlideshow />} />
     </Routes>
   )
 }
