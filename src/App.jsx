@@ -14,6 +14,7 @@ import Hobby from './Hobby'
 import IntroForm from './IntroForm.jsx'
 import BercherEnterprises from './BercherEnterprises.jsx';
 import CatSlideshow from './CatSlideshow';
+import CatApi from './Catapi.jsx';
 
 import './styles/itis3135.css';
 
